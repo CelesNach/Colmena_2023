@@ -1,0 +1,39 @@
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    background-color: rgba(255, 244, 88, 0.938);
+}
+
+
+/* header */
+
+header{
+    background-color: rgb(235, 29, 114);
+    size-adjust: all;
+}
+
+/* main */
+
+
+
+
+/* footer */
+
+footer{
+    background-color: rgb(14, 190, 14);
+    size-adjust: all;
+}

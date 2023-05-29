@@ -5,34 +5,53 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<title>Colmena2023</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href="#">
-					<i class="fa-regular fa-bee"></i>
-					Sobre la Lista</a></li>
-				<li><a href="#">
-					<i class="fa-regular fa-users-medical"></i>
-					Nuestro Equipo</a></li>
-				<li><a href="#">
-					<i class="fa-light fa-flower-tulip"></i>
-					Secretarias y Proyectos</a></li>
-				<li><a href="#">
+			<ul class="BarraIconos">
+				<li>
+					<a href="#Sobre la Lista">
+					<i class="fa-solid fa-address-card"></i>
+					Sobre la Lista
+					</a>
+				</li>
+				<li>
+					<a href="#NuestroEquipo">
+					<i class="fa-solid fa-user-plus"></i>
+					Nuestro Equipo
+					</a>
+				</li>
+				<li>
+					<a href="#Secretarias y Proyectos">
+					<i class="fa-solid fa-bookmark"></i>
+					Secretarias y Proyectos
+					</a>
+				</li>
+				<li>
+					<a href="#Redes">
 					<i class="fa-regular fa-hashtag"></i>
-					Redes</a></li>
+					Redes
+					</a>
+				</li>
 			</ul>
    		</nav>
 	</header>
 	<main>
-		<section>
-			<article>
-				<img src="./Img/Panal.png" alt="FotoBanderaLista">
-				<h2>Sobre la Lista</h2>
-				<p>Colmena, lista postulante para el año 2023 para el CEDAD 
+		
+		<section class="banner">
+				<img src="./Img/Panal.png" alt="FotoBanderaLista"/>
+				<div class="banner-description">
+  				<h1>
+				¡Bienvenidos a nuestra Web Colmena2023!
+			    </h1>
+			    <p>
+					Colmena, lista postulante para el año 2023 para el CEDAD. 
 					Somos una lista con un solo proposito, el cual se basa en 
 					la comunicacion mutua entre el estudiantado y los directivos de DAD.
 
@@ -41,89 +60,168 @@
 
 					Los cargos los ocupan gente de 5to y 4to año del colegio, funciones y habilidades variadas.
 					con cada secretaria funcionando al 100% de su potencia.
+			  	</p>
+			</div>
+		</section>
+		<br>
+		<br>
+		<section id="NuestroEquipo">
+			<article class="nuestroequipo">
+				<img src="./Img/Panoramica.png" alt="FotodelGrupo" class="imgnuestroequipo">
+				<h2>Nuestro Equipo</h2>
+				<p>Los cargos los ocupan gente de 5to y 4to año del colegio, funciones y habilidades variadas.
+					con cada secretaria funcionando al 100% de su potencia.
+					<br>
+					<h4>Lista de la gente a cargo:</h4>
+					<ul>
+						<li>Agustina Faliti</li>
+						<li>Consuelo Gongora</li>
+						<li>Ana Cordoba</li>
+						<li>Gianella Baudouin</li>
+						<li>Renzo Mallea</li>
+						<li>Valentina Estrella</li>
+						<li>Clara Noussan</li>
+					</ul>
 				</p>
 			</article>
 		</section>
 		<br>
 		<br>
-		<section>
-			<article>
-
-				<h2>Proyectos Generales de la lista</h2>
-				<ul>
-					<li>Actos Patrios blablabla</li>
-					<li>Problemas Colegiales</li>
-					<li>Otro ejemplo</li>
-					<li>Otro ejemplo</li>
-				</ul>
+		<section class="secretariasyproyectos">
+			<article id="Secretarias y Proyectos">
+				<div class="rectangulo">
+					<h2>Proyectos Generales de la lista</h2>
+					<ul>
+						<li>Actos Patrios blablabla</li>
+						<li>Problemas Colegiales</li>
+						<li>Otro ejemplo</li>
+						<li>Otro ejemplo</li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria General">
-				<h3>Secretaria General</h3>
-				<h4>Secretaria: Consuelo Gongora <br> SubSecretaria: Clara Noussan </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Mesa Ejecutiva">
+					<h3>Mesa Ejecutiva</h3>
+					<h4>Presidenta: Agustina Faliti <br> Vice-Presidente:----- <br> Secretaria: Consuelo Gongora <br> SubSecretaria: Clara Noussan </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la <em>Mesa Ejecutiva</em> mas texto jasja</p>
+					<ul>
+						<li>Mejor conexion entre otros centros de estudiantes</li>
+						<li>Juntas delegativas JUSTAS y NECESARIAS</li>
+						<li>Calendario CEDAD</li>
+						<li></li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Finanzas">
-				<h3>Secretaria de Finanzas</h3>
-				<h4>Secretaria: --- <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo"><img src="" alt="Secretaria de Finanzas">
+					<h3>Secretaria de Finanzas</h3>
+					<h4>Secretaria: --- <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Finanzas</em> es responsable de los fondos pertenecientes de la lista, desde la administración hasta la obtención de estos.</p>
+					<ul>
+						<li>Muro Emprendedor</li>
+						<li>Feria de Platos</li>
+						<li>Fiestas/Festivales</li>
+						<li></li>
+					</ul>
+				</div>	
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Cultura">
-				<h3>Secretaria de Cultura</h3>
-				<h4>Secretaria: Renzo Mallea <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Secretaria de Cultura">
+					<h3>Secretaria de Cultura</h3>
+					<h4>Secretaria: Renzo Mallea <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Cultura</em> es promover la creatividad, con el fin de unir al individuo y a la comunidad a partir de diversas actividades y eventos.</p>
+					<ul>
+						<li>Actos Cooperativos</li>
+						<li>Talleres y Clubes Virtuales y Presenciales</li>
+						<li>Dias tematicos</li>
+						<li>Casas</li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Prensa">
-				<h3>Secretaria de Prensa</h3>
-				<h4>Secretaria: Valentina Estrella <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Secretaria de Prensa">
+					<h3>Secretaria de Prensa</h3>
+					<h4>Secretaria: Valentina Estrella <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Prensa</em> es establecer vías de comunicación y difusión sobre la información de la lista</p>
+					<ul>
+						<li>Diario DAD</li>
+						<li>Publicitar emprendimientos estudiantiles</li>
+						<li>Comunicar TODAS las actividades con tiempo en Redes</li>
+						<li></li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Ambiente">
-				<h3>Secretaria de Ambiente</h3>
-				<h4>Secretaria: --- <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Secretaria de Ambiente">
+					<h3>Secretaria de Ambiente</h3>
+					<h4>Secretaria: --- <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Ambiente</em> es encargada de fomentar y concientizizar el respeto y cuidado del ambiente y la importancia del mismo</p>
+					<ul>
+						<li>Reactivacion de la "Brigada Verde"</li>
+						<li>Proyectos sustentables</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Genero y AsuntosSociales">
-				<h3>Secretaria de Genero</h3>
-				<h4>Secretaria: Ana Cordoba <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Secretaria de Genero y AsuntosSociales">
+					<h3>Secretaria de Genero</h3>
+					<h4>Secretaria: Ana Cordoba <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Genero y AsuntosSociales</em> mas texto jasja</p>
+					<ul>
+						<li>Torneos Recreativos (DADDAY)</li>
+						<li>Difusion de los proyectos de las demás secretarias</li>
+						<li>Proyecto de apoyo emocional estudiantil</li>
+						<li></li>
+					</ul>
+				</div>
 			</article>
 		<br>
 			<article>
-				<img src="" alt="Secretaria de Deportes">
-				<h3>Secretaria de Deportes</h3>
-				<h4>Secretaria: Gianella Baudouin <br> SubSecretaria: --- </h4>
-				<h5>¿Que funcion cumple?</h5>
-				<p>La funcion de la secretaria <em>Nombre de la secretaria</em> mas texto jasja</p>
+				<div class="rectangulo">
+					<img src="" alt="Secretaria de Deportes">
+					<h3>Secretaria de Deportes</h3>
+					<h4>Secretaria: Gianella Baudouin <br> SubSecretaria: --- </h4>
+					<h5>¿Que funcion cumple?</h5>
+					<p>La funcion de la secretaria de <em>Deporte</em> es organizar principalmente eventos deportivos</p>
+					<ul>
+						<li>Intercolegiales</li>
+						<li>Excursiones para la salud del alumnado</li>
+						<li>Torneos Deportivos</li>
+						<li>Competencia por divisiones (Equipos conformados por la misma division)</li>
+						<li>Taller de Auxilios (Bajos, medios y especiales)</li>
+					</ul>
+				</div>
 			</article>
 		</section>
 
 
 
 	</main>
-	<footer>
+	<footer id="Redes">
 		<p>Todos los derechos reservados para Colmena2023</p>
 		<nav>
-				<ul><a href="#">Términos y condiciones</a></ul>
-				<ul><a href="#">Mapa de sitio</a></ul>
-				<ul><a href="#">Información legal</a></ul>
+				<ul><a href="#">-----------</a></ul>
+				<ul><a href="#">-----------</a></ul>
+				<ul><a href="#">-----------</a></ul>
 		</nav>
 </footer>
 </body>

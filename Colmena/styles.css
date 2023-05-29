@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
-}
-
 a{
     text-decoration: none;
     color: unset;
@@ -16,24 +12,117 @@ a{
 
 body {
     background-color: rgba(255, 244, 88, 0.938);
+    list-style: circle;
 }
-
 
 /* header */
 
 header{
-    background-color: rgb(235, 29, 114);
+    background-color: rgb(255, 113, 172);
     size-adjust: all;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.BarraIconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    list-style: none;
+
 }
 
 /* main */
+section.banner h1{
+    color: black;
+}
+
+section.banner p{
+    color: black;
+}
 
 
+/*  Estilos seccion banner 
+    NO MODIFICAR
+*/
 
+section.banner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+section.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    height: auto;
+    width: 50%;
+}
+
+section.banner img {
+    width: 40%;
+}
+
+@media (max-width: 700px) { 
+    section.banner{
+        flex-direction: column-reverse;
+    }
+    section.banner div,
+    section.banner img{
+        width: 100% ;
+    }
+}
+
+/*Nuestro Equipo*/
+
+.imgnuestroequipo{
+    width: 100%;
+    height: auto;    
+}
+
+article.nuestroequipo h2, article.nuestroequipo p, 
+article.nuestroequipo li, article.nuestroequipo h4{
+    display: flex;
+    justify-content: center;
+
+}
+/*article.nuestroequipo p{
+    display: flex;
+    justify-content: center;
+}
+*/
+
+/*Secretarias*/
+section.seretariasyproyectos {
+    list-style: circle;
+}
+
+.rectangulo {
+    width: 400px;
+    height: 200px;
+    background-color: #d6d6d6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangulo h2, .rectangulo ul {
+    text-align: center;
+  }
+  
 
 /* footer */
 
 footer{
-    background-color: rgb(14, 190, 14);
+    background-color: rgba(66, 233, 66, 0.877);
     size-adjust: all;
+    justify-content: center;
 }
